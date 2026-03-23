@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frappe UI Starter
 
 This template should help get you started developing custom frontend for Frappe
@@ -40,3 +41,46 @@ To change this, open `src/router.js` and change the base URL passed to `createWe
 - [Frappe UI](https://github.com/frappe/frappe-ui)
 - [TailwindCSS](https://tailwindcss.com/docs/utility-first)
 - [Vite](https://vitejs.dev/guide/)
+=======
+### doctor_profile
+
+doctor_profile
+
+### Installation
+
+You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+
+```bash
+cd $PATH_TO_YOUR_BENCH
+bench get-app $URL_OF_THIS_REPO --branch develop
+bench install-app doctor_profile
+```
+
+### Contributing
+
+This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+
+```bash
+cd apps/doctor_profile
+pre-commit install
+```
+
+Pre-commit is configured to use the following tools for checking and formatting your code:
+
+- ruff
+- eslint
+- prettier
+- pyupgrade
+
+### CI
+
+This app can use GitHub Actions for CI. The following workflows are configured:
+
+- CI: Installs this app and runs unit tests on every push to `develop` branch.
+- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
+
+
+### License
+
+mit
+>>>>>>> c071834 (feat: Initialize App)

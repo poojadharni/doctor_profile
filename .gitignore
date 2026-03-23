@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 node_modules
 .DS_Store
 dist
 dist-ssr
 *.local
+=======
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+node_modules
+__pycache__
+>>>>>>> c071834 (feat: Initialize App)

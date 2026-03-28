@@ -1,0 +1,71 @@
+<template>
+    <div class="bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl shadow-md">
+        <div
+            class="max-w-6xl mx-auto bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl shadow-md flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+
+                <!-- Left Content (60%) -->
+                <div class="w-full md:w-3/5">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+                        About Dr. Rajesh Kumar
+                    </h2>
+
+                    <p class="text-blue-600 font-medium mb-2">
+                        MBBS, MS (Orthopedics), Fellowship in Joint Replacement
+                    </p>
+
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                        Dr. Rajesh Kumar is an experienced orthopedic specialist focusing on
+                        bones, joints, and sports injuries. He specializes in knee and hip
+                        replacements, fracture care, and minimally invasive surgeries that help
+                        patients recover faster and regain mobility.
+                    </p>
+
+                    <!-- Stats -->
+                    <div class="flex gap-4 mb-6">
+                        <div class="bg-white shadow rounded-xl px-4 py-3 text-center">
+                            <h3 class="text-blue-600 text-lg font-bold">15+</h3>
+                            <p class="text-gray-500 text-xs">Years Experience</p>
+                        </div>
+
+                        <div class="bg-white shadow rounded-xl px-4 py-3 text-center">
+                            <h3 class="text-blue-600 text-lg font-bold">8K+</h3>
+                            <p class="text-gray-500 text-xs">Surgeries</p>
+                        </div>
+
+                        <div class="bg-white shadow rounded-xl px-4 py-3 text-center">
+                            <h3 class="text-blue-600 text-lg font-bold">97%</h3>
+                            <p class="text-gray-500 text-xs">Success Rate</p>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <button
+                        class="bg-gradient-to-r from-[#7C3AED] to-[#06B6D4] text-white px-6 py-3 rounded-lg shadow hover:opacity-90 hover:scale-105 transition duration-300">
+                        Learn More About Orthopedic Care →
+                    </button>
+                </div>
+
+                <!-- Right Image (40%) -->
+                <div class="w-full md:w-2/5 relative">
+                    <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54" alt="Orthopedic Doctor"
+                        class="rounded-2xl w-full h-72 object-cover" />
+
+                    <!-- Play Button -->
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="bg-white p-3 rounded-full shadow-lg cursor-pointer hover:scale-110 transition">
+                            ▶
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "about-section",
+};
+</script>
